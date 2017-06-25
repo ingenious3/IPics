@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:scrollbars="vertical"
+    tools:context="com.ingenious.ishant.ipics.ObjectAddEditorActivity" >
+
+    <RelativeLayout
+        android:id="@+id/activity_object_editor"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        >
+
+        <ImageView
+            android:id="@+id/object_photo"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:scaleType="centerCrop"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="@dimen/short_margin"
+            android:layout_marginRight="@dimen/short_margin"
+            android:layout_marginTop="@dimen/short_margin"
+            android:background="@drawable/edit_outline"
+            android:src="@drawable/add_image"/>
+
+        <EditText
+            android:id="@+id/object_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/short_margin"
+            android:paddingRight="@dimen/short_margin"
+            android:paddingTop="@dimen/short_margin"
+            android:paddingBottom="@dimen/short_margin"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:layout_marginLeft="@dimen/short_margin"
+            android:layout_marginRight="@dimen/short_margin"
+            android:background="@drawable/edit_outline"
+            android:maxLines="1"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/colorPrimaryDark"
+            android:textColorHint="@color/hintText"
+            android:hint="@string/hint0"
+            android:layout_below="@id/object_photo"/>
+
+        <EditText
+            android:id="@+id/object_desc_full"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/short_margin"
+            android:paddingRight="@dimen/short_margin"
+            android:paddingTop="@dimen/short_margin"
+            android:paddingBottom="@dimen/short_margin"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:layout_marginLeft="@dimen/short_margin"
+            android:layout_marginRight="@dimen/short_margin"
+            android:background="@drawable/edit_outline"
+            android:maxLines="3"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/colorPrimaryDark"
+            android:textColorHint="@color/hintText"
+            android:hint="@string/hint"
+            android:layout_below="@id/object_desc"/>
+
+
+        <Button
+            android:id="@+id/submitButton"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:textSize="@dimen/submitText"
+            android:background="@drawable/button_shape"
+            android:textColor="@color/colorWhite"
+            android:text="@string/submit_button"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/object_desc_full"/>
+
+    </RelativeLayout>
+</ScrollView>

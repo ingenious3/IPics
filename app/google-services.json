@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "712598137423",
+    "firebase_url": "https://ipics-b7fae.firebaseio.com",
+    "project_id": "ipics-b7fae",
+    "storage_bucket": "ipics-b7fae.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:712598137423:android:cdcbd6e8882bee6e",
+        "android_client_info": {
+          "package_name": "com.ingenious.ishant.ipics"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "712598137423-e4j9lr3rfi0shehr2nkaqsof3c8v2o20.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ingenious.ishant.ipics",
+            "certificate_hash": "19DC82746A17D6482EBB043616749B6B319C057A"
+          }
+        },
+        {
+          "client_id": "712598137423-vbvqq7a41hdn6kt1o1a6kji4g2n34bna.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAM1PoXWNYsOdOwjBibVeBYx5RMLOgnHm4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "712598137423-vbvqq7a41hdn6kt1o1a6kji4g2n34bna.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

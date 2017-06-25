@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">IPics</string>
+    <string name="facebook_app_id"></string>
+    <string name="welcome_text">Welcome to IPics</string>
+    <string name="login_with_facebook">Login with Facebook</string>
+    <string name="login_with_google">Login with Google+</string>
+    <string name="title_activity_dashboard">IPics</string>
+    <string name="hint0">Enter Title </string>
+    <string name="hint">Enter Description </string>
+    <string name="submit_button">Submit</string>
+    <string name="update_button">Update</string>
+</resources>
